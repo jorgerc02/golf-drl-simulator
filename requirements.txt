@@ -1,0 +1,11 @@
+gymnasium
+matplotlib
+numpy
+pandas
+pillow
+pygame
+pyproj
+shapely
+stable-baselines3
+tensorboard
+torch

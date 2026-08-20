@@ -1,0 +1,46 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+credentials*
+secrets*
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# Private or generated data
+data/
+private_data/
+trackman*/
+*.xlsx
+*.xls
+
+# Models and experiment outputs
+board/
+runs/
+tmp/
+models/
+checkpoints/
+logs/
+*.zip
+*.pt
+*.pth
+
+# Real course files should remain local
+assets/private/
+assets/kml/
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

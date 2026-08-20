@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Fictional sample hole</name>
+    <description>Synthetic geometry centred on zero coordinates for demonstration only.</description>
+    <Placemark><name>reference</name><Point><coordinates>0.0000,0.0000,0</coordinates></Point></Placemark>
+    <Placemark><name>flag</name><Point><coordinates>0.0000,0.0035,0</coordinates></Point></Placemark>
+    <Placemark><name>rough</name><Polygon><outerBoundaryIs><LinearRing><coordinates>
+      -0.0005,-0.0002,0 0.0005,-0.0002,0 0.0007,0.0037,0 -0.0007,0.0037,0 -0.0005,-0.0002,0
+    </coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+    <Placemark><name>fairway</name><Polygon><outerBoundaryIs><LinearRing><coordinates>
+      -0.0002,0.0003,0 0.0002,0.0003,0 0.00035,0.0030,0 -0.00035,0.0030,0 -0.0002,0.0003,0
+    </coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+    <Placemark><name>teebox</name><Polygon><outerBoundaryIs><LinearRing><coordinates>
+      -0.00015,-0.00005,0 0.00015,-0.00005,0 0.00015,0.00015,0 -0.00015,0.00015,0 -0.00015,-0.00005,0
+    </coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+    <Placemark><name>green</name><Polygon><outerBoundaryIs><LinearRing><coordinates>
+      -0.00025,0.0032,0 0.00025,0.0032,0 0.00025,0.0037,0 -0.00025,0.0037,0 -0.00025,0.0032,0
+    </coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+    <Placemark><name>bunker</name><Polygon><outerBoundaryIs><LinearRing><coordinates>
+      0.00025,0.0029,0 0.00045,0.0029,0 0.00045,0.00315,0 0.00025,0.00315,0 0.00025,0.0029,0
+    </coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+    <Placemark><name>water</name><Polygon><outerBoundaryIs><LinearRing><coordinates>
+      -0.0006,0.0016,0 -0.0003,0.0016,0 -0.0003,0.0020,0 -0.0006,0.0020,0 -0.0006,0.0016,0
+    </coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+    <Placemark><name>woods</name><Polygon><outerBoundaryIs><LinearRing><coordinates>
+      0.00045,0.0010,0 0.00065,0.0010,0 0.00065,0.0024,0 0.00045,0.0024,0 0.00045,0.0010,0
+    </coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  </Document>
+</kml>
